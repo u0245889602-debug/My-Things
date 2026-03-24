@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>My Things - Checkout</title>
+</head>
+<body>
+
+  <header id="main-header">
+    <div class="logo">My Things</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="product.html">Shop</a>
+      <a href="cart.html" id="cart-link">Cart (<span id="cart-count">2</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Afrekenen</h2>
+    
+    <form action="success.html" method="GET">
+      <fieldset>
+        <legend>Verzendgegevens</legend>
+        <label>Naam: <input type="text" required></label><br><br>
+        <label>Adres: <input type="text" required></label><br><br>
+        <label>Email: <input type="email" required></label>
+      </fieldset>
+      <br>
+      <button type="submit">Plaats Bestelling</button>
+    </form>
+  </main>
+
+</body>
+</html>
